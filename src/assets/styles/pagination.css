@@ -1,0 +1,12 @@
+.ant-pagination-item-active {
+  text-transform: uppercase;
+  user-select: none;
+  transition: all 150ms ease-in 0s;
+  background-position-y: initial;
+  background-repeat: initial;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: initial;
+  box-shadow: var(--primary-box-shadow);
+}

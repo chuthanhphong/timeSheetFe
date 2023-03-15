@@ -1,0 +1,15 @@
+.ant-input {
+  /* height: 40px; */
+}
+
+.ant-dropdown-menu-title-content {
+  font-family: var(--primary-font);
+}
+
+.ant-select-item-option-content {
+  font-family: var(--primary-font);
+}
+
+.ant-picker-dropdown {
+  font-family: var(--primary-font);
+}

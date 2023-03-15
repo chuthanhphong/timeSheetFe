@@ -1,0 +1,43 @@
+.title-dialog-note {
+  font-size: 14px;
+  color: #020c1e;
+}
+
+.body-dialog-create-note {
+  padding-top: 10px;
+}
+
+.d-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.div-time-picker-ot {
+  display: flex;
+}
+
+.Time-picker-ot {
+  cursor: pointer;
+}
+
+.info-user-title {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  color: #020c1e;
+  font-family: system-ui;
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-dialog {
+  padding-top: 10px;
+}
+
+.label-note {
+  display: flex;
+}

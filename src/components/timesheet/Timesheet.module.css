@@ -1,0 +1,49 @@
+.timeSheetAction {
+  padding-top: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.custom-file-input {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.02);
+  border: 1px dashed #d9d9d9;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: border-color 0.3s;
+}
+
+.custom-file-input > label {
+  padding: unset !important;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.02);
+  color: white;
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+
+.custom-file-input:hover {
+  border-color: #1677ff;
+}
+
+.custom-file-input-text {
+  margin: 0 0 4px;
+  color: rgba(0, 0, 0, 0.88);
+  font-size: 16px;
+}
+
+.custom-file-input-hint {
+  color: rgba(0, 0, 0, 0.45);
+  font-size: 14px;
+}
+
+.custom-file-input-uploaded {
+  padding-top: 6px;
+}

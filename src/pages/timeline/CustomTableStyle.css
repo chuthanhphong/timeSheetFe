@@ -1,0 +1,185 @@
+#time-line-page .weekend_day_color {
+  background-color: darkgray;
+  color: #ffffff !important;
+  border-radius: 4px;
+}
+
+.timeline-note {
+  margin-top: 8px;
+  display: flex;
+}
+
+.timeline-note > p {
+  margin-right: 30px;
+  font-weight: 600;
+}
+
+.timeline-note > p > b {
+  font-weight: 700;
+}
+
+#drawer-page-note label {
+  width: 80px;
+  font-weight: 800;
+}
+
+#table-timeline th {
+  padding: 0px !important;
+}
+
+#drawer-page-note .ant-segmented-item-label {
+  padding: 0;
+}
+
+#drawer-page-note .TOTAL {
+  padding: 4px;
+}
+
+#drawer-page-note .AL {
+  background-color: yellow;
+  padding: 4px;
+}
+
+#drawer-page-note .ALH {
+  background-color: yellow;
+  padding: 4px;
+}
+
+#drawer-page-note .OT {
+  background-color: green;
+  padding: 4px;
+}
+
+#drawer-page-note .BOT {
+  background-color: red;
+  padding: 4px;
+}
+
+#drawer-page-note .ant-segmented-item-selected::before {
+  display: block;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid black;
+  width: 0;
+  height: 0;
+  position: absolute;
+  content: "";
+  top: -60%;
+  right: 50%;
+  transform: translate(50%, 50%);
+}
+
+#drawer-page-note .ant-segmented-item:hover:not(.ant-segmented-item-selected) .TOTAL::before {
+  color: #fff;
+  font-weight: 500;
+  content: "Annual Leave";
+  position: absolute;
+  z-index: 86400;
+  background-color: #333;
+  bottom: -40px;
+  left: 0;
+  padding: 0 8px;
+  border: 1px solid #000;
+  border-radius: 4px;
+}
+#drawer-page-note .ant-segmented-item:hover:not(.ant-segmented-item-selected) .TOTAL::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 12px;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-bottom: 4px solid black;
+}
+
+#drawer-page-note .ant-segmented-item:hover:not(.ant-segmented-item-selected) .AL::before {
+  content: "Compensate Over Time";
+  color: #fff;
+  font-weight: 500;
+  position: absolute;
+  z-index: 86400;
+  background-color: #333;
+  bottom: -40px;
+  left: 0;
+  padding: 0 8px;
+  border: 1px solid #000;
+  border-radius: 4px;
+}
+#drawer-page-note .ant-segmented-item:hover:not(.ant-segmented-item-selected) .AL::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 35px;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-bottom: 4px solid black;
+}
+
+#drawer-page-note .ant-segmented-item:hover:not(.ant-segmented-item-selected) .OT::before {
+  content: "Over time";
+  color: #fff;
+  font-weight: 500;
+  position: absolute;
+  z-index: 86400;
+  background-color: #333;
+  bottom: -40px;
+  left: 0;
+  padding: 0 8px;
+  border: 1px solid #000;
+  border-radius: 4px;
+}
+#drawer-page-note .ant-segmented-item:hover:not(.ant-segmented-item-selected) .OT::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 35px;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-bottom: 4px solid black;
+}
+
+#drawer-page-note .ant-segmented-item:hover:not(.ant-segmented-item-selected) .ALH::before {
+  content: "Half Leave Annual";
+  color: #fff;
+  font-weight: 500;
+  position: absolute;
+  z-index: 86400;
+  background-color: #333;
+  bottom: -40px;
+  left: 0;
+  padding: 0 8px;
+  border: 1px solid #000;
+  border-radius: 4px;
+}
+#drawer-page-note .ant-segmented-item:hover:not(.ant-segmented-item-selected) .ALH::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 37px;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-bottom: 4px solid black;
+}
+
+#drawer-page-note .ant-segmented-item:hover:not(.ant-segmented-item-selected) .BOT::before {
+  content: " Compensate Over Time";
+  color: #fff;
+  font-weight: 500;
+  position: absolute;
+  z-index: 86400;
+  background-color: #333;
+  bottom: -40px;
+  left: 0;
+  padding: 0 8px;
+  border: 1px solid #000;
+  border-radius: 4px;
+}
+#drawer-page-note .ant-segmented-item:hover:not(.ant-segmented-item-selected) .BOT::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 37px;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-bottom: 4px solid black;
+}

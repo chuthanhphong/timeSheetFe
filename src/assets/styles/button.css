@@ -1,0 +1,49 @@
+.ant-btn {
+  font-weight: 600;
+  font-size: 13px;
+  color: #595959;
+  height: 35px;
+  padding: 0 12px;
+  line-height: 30px;
+  /* text-transform: uppercase; */
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 7%);
+  font-family: var(--primary-font);
+}
+
+.ant-btn-primary {
+  color: #fff;
+  border-color: #1890ff;
+  background: #1890ff;
+  text-shadow: 0 -1px 0 rgb(0 0 0 / 12%);
+  box-shadow: var(--primary-box-shadow);
+  background-image: linear-gradient(195deg, rgb(73, 163, 241), rgb(26, 115, 232));
+}
+
+.ant-btn-primary:hover,
+.ant-btn-primary:focus {
+  color: #fff;
+  border-color: #40a9ff;
+  background: #40a9ff;
+  transform: scale(1.02);
+}
+
+.ant-btn-default {
+  border: none;
+  box-shadow: var(--regular-box-shadow);
+}
+
+.ant-btn-default:hover {
+  transform: scale(1.02);
+}
+#buttonCustom {
+  text-transform: uppercase;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  font-family: var(--primary-font);
+  font-size: 0.75rem;
+}
+.buttonCustom-view {
+  color: rgb(26, 115, 232);
+}

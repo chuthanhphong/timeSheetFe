@@ -1,0 +1,56 @@
+{
+  "name": "timesheet-web",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "prod": "vite --host --mode production",
+    "preview": "vite preview",
+    "lint:check": "eslint ./src --ext .jsx,.js,.ts,.tsx --quiet --ignore-path ./.gitignore",
+    "lint:fix": "eslint ./src --ext .jsx,.js,.ts,.tsx --quiet --fix --ignore-path ./.gitignore",
+    "lint:format": "prettier --loglevel warn --write \"./**/*.{js,jsx,ts,tsx,css}\" ",
+    "lint": "yarn lint:format && yarn lint:fix ",
+    "postinstall": "husky install"
+  },
+  "dependencies": {
+    "@ant-design/charts": "^1.4.2",
+    "@ant-design/icons": "^5.0.1",
+    "@ant-design/plots": "^1.2.5",
+    "@loadable/component": "^5.15.3",
+    "@reduxjs/toolkit": "^1.9.3",
+    "antd": "^5.2.0",
+    "axios": "^0.27.2",
+    "dayjs": "^1.11.7",
+    "lodash": "^4.17.21",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.8.1",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.6",
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@typescript-eslint/eslint-plugin": "^5.28.0",
+    "@typescript-eslint/parser": "^5.51.0",
+    "@vitejs/plugin-react": "^3.1.0",
+    "eslint": "^8.33.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.32.2",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.1.1",
+    "prettier": "^2.8.4",
+    "typescript": "^4.9.3",
+    "vite": "^4.1.0"
+  },
+  "lint-staged": {
+    "*.{js,ts,tsx}": [
+      "yarn lint",
+      "git add ."
+    ]
+  }
+}

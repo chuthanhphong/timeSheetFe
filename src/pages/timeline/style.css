@@ -1,0 +1,11 @@
+#time-line-page .ant-table-thead > tr > th {
+  padding: 0;
+}
+
+#time-line-page.ant-table-tbody {
+  padding: 0;
+}
+
+#time-line-page.ant-table-tbody > tr > td {
+  padding: 7px;
+}

@@ -1,0 +1,7 @@
+:root {
+  --primary-font: Roboto, Helvetica, Arial, sans-serif;
+  --primary-box-shadow: rgb(0 0 0 / 11%) 0rem 0.25rem 0.4375rem -0.0625rem, rgb(0 0 0 / 7%) 0rem 0.125rem 0.25rem -0.0625rem;
+  --regular-box-shadow: rgba(83, 86, 90, 0.15) 0rem 0.1875rem 0.1875rem 0rem, rgba(83 86 90 / 20%) 0rem 0.1875rem 0.0625rem -0.125rem,
+    rgb(83 86 90 / 15%) 0rem 0.0625rem 0.3125rem 0rem;
+  --primary-gradient: ;
+}

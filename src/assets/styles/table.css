@@ -1,0 +1,17 @@
+.ant-table-thead > tr > th {
+  font-weight: 700;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-family: var(--primary-font);
+}
+
+.ant-table-tbody {
+  font-family: var(--primary-font);
+}
+
+.ant-table-tbody > tr > td {
+  font-size: 14px;
+  font-weight: 500;
+  color: rgb(123, 128, 154);
+  margin-bottom: 0;
+}
